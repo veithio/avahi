@@ -1,4 +1,4 @@
-FROM alpine
+FROM arm64v8/alpine
 
 RUN apk add --no-cache avahi augeas
 
